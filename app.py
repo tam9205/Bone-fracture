@@ -214,4 +214,16 @@ with tab_about:
     ### 🔬 Công nghệ & Thuật toán
     - **Mô hình Nhận diện (Object Detection):** Fine-tuning các kiến trúc YOLOv8 đa kích cỡ.
     - **Tiền xử lý ảnh Y khoa:** Áp dụng thuật toán **CLAHE** (Contrast Limited Adaptive Histogram Equalization) thông qua OpenCV. Thuật toán này giúp tăng cường độ tương phản cục bộ của tia X, làm nổi bật cấu trúc xương bị mờ trước khi đưa vào mạng nơ-ron phân tích.
-    - **Triển khai Giao diện (Deployment):** Xây dựng
+    - **Triển khai Giao diện (Deployment):** Xây dựng bằng Streamlit framework với luồng xử lý thời gian thực.
+    """)
+    
+    st.markdown("---")
+    
+    # Block thông tin cá nhân cực kỳ chuyên nghiệp cho CV
+    st.subheader("👨‍💻 Thông tin Tác giả")
+    st.markdown("""
+    - **Sinh viên thực hiện:** Lại Minh Tâm, Vũ Bá Quốc Hưng
+    - **Đơn vị:** Ngành Công nghệ Thông tin Ứng dụng - Trường Quốc tế, Đại học Quốc gia Hà Nội.
+    - **Định hướng nghiên cứu:** AI Engineering. 
+    - **Lĩnh vực chuyên môn:** Computer Vision ứng dụng trong các bài toán y tế và hệ thống tự động hóa.
+    """)
